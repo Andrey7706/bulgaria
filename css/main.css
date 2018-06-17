@@ -497,38 +497,65 @@ blockquote p {
     font-family: 'Museo Sans Cyrl 900', sans-serif;
     text-align: center;
     padding-top: 75px;
-    padding-bottom: 60px;
+    padding-bottom: 85px;
+}
+
+.bx-wrapper {
+    margin-top: 65px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(149,147,147, 0.3);
+}
+
+.bx-wrapper .bx-viewport {
+    height: 206px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    text-indent: 0;
+    font-size: 3.214rem;
+    color: #23aae2;
+    margin-top: -25px;
+}
+
+.bx-controls-direction .bx-prev {
+    left: -10%;
+}
+
+.bx-next {
+    left: 105%;
+}
+
+.bx-wrapper .bx-pager {
+    bottom: -70px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border: 1px dashed #23aae2;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #23aae2;
 }
 
 .comments__item {
-    position: relative;
-    box-shadow: 0 2px 4px rgba(149,147,147, 0.3);
-    margin-top: 65px;
-    padding-top: 44px;
-    padding-bottom: 49px;
-}
-
-.comments__arrow-left, .comments__arrow-right {
-    position: absolute;
-    font-size: 3.214rem;
-    color: #23aae2;
-    cursor: pointer;
-}
-
-.comments__arrow-left {
-    left: -22%;
-    top: 65px;
-}
-
-.comments__arrow-right {
-    left: 105%;
-    top: 65px;
+    padding-top: 34px;
+    padding-bottom: 29px;
 }
 
 .comments__item img {
     position: absolute;
-    left: -75px;
-    top: 35px;
+    margin-left: 10px;
 }
 
 .clients__name, .clients__social, .clients__city {
@@ -539,7 +566,7 @@ blockquote p {
     font-size: 1.143rem;
     text-transform: uppercase;
     float: left;
-    margin-left: 100px;
+    margin-left: 157px;
 }
 
 .clients__social {
@@ -564,31 +591,15 @@ blockquote p {
     font-size: 0.857rem;
     color: #23aae2;
     text-transform: uppercase;
-    margin-right: 45px;
+    margin-right: 40px;
+    padding-top: 3px;
 }
+
 .clients__desc p {
     font-family: 'Museo Sans Cyrl 100', sans-serif;
     font-style: italic;
     text-align: left;
-    padding: 25px 45px 0 100px;
-}
-
-.clients__tab {
-    margin-top: 50px;
-}
-
-.clients__tab span {
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    border: 1px dashed #23aae2;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.active {
-    background: #23aae2;
+    padding: 25px 45px 0 160px;
 }
 
 /* Consultation */
